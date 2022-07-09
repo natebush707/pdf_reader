@@ -1,0 +1,2458 @@
+[[package]]
+name = "atomicwrites"
+version = "1.4.1"
+description = "Atomic file writes."
+category = "dev"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[[package]]
+name = "attrs"
+version = "21.4.0"
+description = "Classes Without Boilerplate"
+category = "dev"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[package.extras]
+dev = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "mypy", "pytest-mypy-plugins", "zope.interface", "furo", "sphinx", "sphinx-notfound-page", "pre-commit", "cloudpickle"]
+docs = ["furo", "sphinx", "zope.interface", "sphinx-notfound-page"]
+tests = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "mypy", "pytest-mypy-plugins", "zope.interface", "cloudpickle"]
+tests_no_zope = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "mypy", "pytest-mypy-plugins", "cloudpickle"]
+
+[[package]]
+name = "colorama"
+version = "0.4.5"
+description = "Cross-platform colored terminal text."
+category = "dev"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[[package]]
+name = "comtypes"
+version = "1.1.11"
+description = "Pure Python COM package"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "more-itertools"
+version = "8.13.0"
+description = "More routines for operating on iterables, beyond itertools"
+category = "dev"
+optional = false
+python-versions = ">=3.5"
+
+[[package]]
+name = "packaging"
+version = "21.3"
+description = "Core utilities for Python packages"
+category = "dev"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyparsing = ">=2.0.2,<3.0.5 || >3.0.5"
+
+[[package]]
+name = "pluggy"
+version = "0.13.1"
+description = "plugin and hook calling mechanisms for python"
+category = "dev"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[package.extras]
+dev = ["pre-commit", "tox"]
+
+[[package]]
+name = "py"
+version = "1.11.0"
+description = "library with cross-python path, ini-parsing, io, code, log facilities"
+category = "dev"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[[package]]
+name = "pyobjc"
+version = "8.5"
+description = "Python<->ObjC Interoperability Module"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = "8.5"
+pyobjc-framework-Accessibility = {version = "8.5", markers = "platform_release >= \"20.0\""}
+pyobjc-framework-Accounts = {version = "8.5", markers = "platform_release >= \"12.0\""}
+pyobjc-framework-AddressBook = "8.5"
+pyobjc-framework-AdServices = {version = "8.5", markers = "platform_release >= \"20.0\""}
+pyobjc-framework-AdSupport = {version = "8.5", markers = "platform_release >= \"18.0\""}
+pyobjc-framework-AppleScriptKit = "8.5"
+pyobjc-framework-AppleScriptObjC = {version = "8.5", markers = "platform_release >= \"10.0\""}
+pyobjc-framework-ApplicationServices = "8.5"
+pyobjc-framework-AppTrackingTransparency = {version = "8.5", markers = "platform_release >= \"20.0\""}
+pyobjc-framework-AudioVideoBridging = {version = "8.5", markers = "platform_release >= \"12.0\""}
+pyobjc-framework-AuthenticationServices = {version = "8.5", markers = "platform_release >= \"19.0\""}
+pyobjc-framework-AutomaticAssessmentConfiguration = {version = "8.5", markers = "platform_release >= \"19.0\""}
+pyobjc-framework-Automator = "8.5"
+pyobjc-framework-AVFoundation = {version = "8.5", markers = "platform_release >= \"11.0\""}
+pyobjc-framework-AVKit = {version = "8.5", markers = "platform_release >= \"13.0\""}
+pyobjc-framework-BusinessChat = {version = "8.5", markers = "platform_release >= \"18.0\""}
+pyobjc-framework-CalendarStore = {version = "8.5", markers = "platform_release >= \"9.0\""}
+pyobjc-framework-CallKit = {version = "8.5", markers = "platform_release >= \"20.0\""}
+pyobjc-framework-CFNetwork = "8.5"
+pyobjc-framework-ClassKit = {version = "8.5", markers = "platform_release >= \"20.0\""}
+pyobjc-framework-CloudKit = {version = "8.5", markers = "platform_release >= \"14.0\""}
+pyobjc-framework-Cocoa = "8.5"
+pyobjc-framework-Collaboration = {version = "8.5", markers = "platform_release >= \"9.0\""}
+pyobjc-framework-ColorSync = {version = "8.5", markers = "platform_release >= \"17.0\""}
+pyobjc-framework-Contacts = {version = "8.5", markers = "platform_release >= \"15.0\""}
+pyobjc-framework-ContactsUI = {version = "8.5", markers = "platform_release >= \"15.0\""}
+pyobjc-framework-CoreAudio = "8.5"
+pyobjc-framework-CoreAudioKit = "8.5"
+pyobjc-framework-CoreBluetooth = {version = "8.5", markers = "platform_release >= \"14.0\""}
+pyobjc-framework-CoreData = "8.5"
+pyobjc-framework-CoreHaptics = {version = "8.5", markers = "platform_release >= \"19.0\""}
+pyobjc-framework-CoreLocation = {version = "8.5", markers = "platform_release >= \"10.0\""}
+pyobjc-framework-CoreMedia = {version = "8.5", markers = "platform_release >= \"11.0\""}
+pyobjc-framework-CoreMediaIO = {version = "8.5", markers = "platform_release >= \"11.0\""}
+pyobjc-framework-CoreMIDI = "8.5"
+pyobjc-framework-CoreML = {version = "8.5", markers = "platform_release >= \"17.0\""}
+pyobjc-framework-CoreMotion = {version = "8.5", markers = "platform_release >= \"19.0\""}
+pyobjc-framework-CoreServices = "8.5"
+pyobjc-framework-CoreSpotlight = {version = "8.5", markers = "platform_release >= \"17.0\""}
+pyobjc-framework-CoreText = "8.5"
+pyobjc-framework-CoreWLAN = {version = "8.5", markers = "platform_release >= \"10.0\""}
+pyobjc-framework-CryptoTokenKit = {version = "8.5", markers = "platform_release >= \"14.0\""}
+pyobjc-framework-DataDetection = {version = "8.5", markers = "platform_release >= \"21.0\""}
+pyobjc-framework-DeviceCheck = {version = "8.5", markers = "platform_release >= \"19.0\""}
+pyobjc-framework-DictionaryServices = {version = "8.5", markers = "platform_release >= \"9.0\""}
+pyobjc-framework-DiscRecording = "8.5"
+pyobjc-framework-DiscRecordingUI = "8.5"
+pyobjc-framework-DiskArbitration = "8.5"
+pyobjc-framework-DVDPlayback = "8.5"
+pyobjc-framework-EventKit = {version = "8.5", markers = "platform_release >= \"12.0\""}
+pyobjc-framework-ExceptionHandling = "8.5"
+pyobjc-framework-ExecutionPolicy = {version = "8.5", markers = "platform_release >= \"19.0\""}
+pyobjc-framework-ExternalAccessory = {version = "8.5", markers = "platform_release >= \"17.0\""}
+pyobjc-framework-FileProvider = {version = "8.5", markers = "platform_release >= \"19.0\""}
+pyobjc-framework-FileProviderUI = {version = "8.5", markers = "platform_release >= \"19.0\""}
+pyobjc-framework-FinderSync = {version = "8.5", markers = "platform_release >= \"14.0\""}
+pyobjc-framework-FSEvents = {version = "8.5", markers = "platform_release >= \"9.0\""}
+pyobjc-framework-GameCenter = {version = "8.5", markers = "platform_release >= \"12.0\""}
+pyobjc-framework-GameController = {version = "8.5", markers = "platform_release >= \"13.0\""}
+pyobjc-framework-GameKit = {version = "8.5", markers = "platform_release >= \"12.0\""}
+pyobjc-framework-GameplayKit = {version = "8.5", markers = "platform_release >= \"15.0\""}
+pyobjc-framework-ImageCaptureCore = {version = "8.5", markers = "platform_release >= \"10.0\""}
+pyobjc-framework-IMServicePlugIn = {version = "8.5", markers = "platform_release >= \"11.0\""}
+pyobjc-framework-InputMethodKit = {version = "8.5", markers = "platform_release >= \"9.0\""}
+pyobjc-framework-InstallerPlugins = "8.5"
+pyobjc-framework-InstantMessage = {version = "8.5", markers = "platform_release >= \"9.0\""}
+pyobjc-framework-Intents = {version = "8.5", markers = "platform_release >= \"16.0\""}
+pyobjc-framework-IntentsUI = {version = "8.5", markers = "platform_release >= \"21.0\""}
+pyobjc-framework-IOSurface = {version = "8.5", markers = "platform_release >= \"10.0\""}
+pyobjc-framework-iTunesLibrary = {version = "8.5", markers = "platform_release >= \"10.0\""}
+pyobjc-framework-KernelManagement = {version = "8.5", markers = "platform_release >= \"20.0\""}
+pyobjc-framework-LatentSemanticMapping = "8.5"
+pyobjc-framework-LaunchServices = "8.5"
+pyobjc-framework-libdispatch = {version = "8.5", markers = "platform_release >= \"12.0\""}
+pyobjc-framework-LinkPresentation = {version = "8.5", markers = "platform_release >= \"19.0\""}
+pyobjc-framework-LocalAuthentication = {version = "8.5", markers = "platform_release >= \"14.0\""}
+pyobjc-framework-LocalAuthenticationEmbeddedUI = {version = "8.5", markers = "platform_release >= \"21.0\""}
+pyobjc-framework-MailKit = {version = "8.5", markers = "platform_release >= \"21.0\""}
+pyobjc-framework-MapKit = {version = "8.5", markers = "platform_release >= \"13.0\""}
+pyobjc-framework-MediaAccessibility = {version = "8.5", markers = "platform_release >= \"13.0\""}
+pyobjc-framework-MediaLibrary = {version = "8.5", markers = "platform_release >= \"13.0\""}
+pyobjc-framework-MediaPlayer = {version = "8.5", markers = "platform_release >= \"16.0\""}
+pyobjc-framework-MediaToolbox = {version = "8.5", markers = "platform_release >= \"13.0\""}
+pyobjc-framework-Message = {version = "8.5", markers = "platform_release < \"13.0\""}
+pyobjc-framework-Metal = {version = "8.5", markers = "platform_release >= \"15.0\""}
+pyobjc-framework-MetalKit = {version = "8.5", markers = "platform_release >= \"15.0\""}
+pyobjc-framework-MetalPerformanceShaders = {version = "8.5", markers = "platform_release >= \"17.0\""}
+pyobjc-framework-MetalPerformanceShadersGraph = {version = "8.5", markers = "platform_release >= \"20.0\""}
+pyobjc-framework-MetricKit = {version = "8.5", markers = "platform_release >= \"21.0\""}
+pyobjc-framework-MLCompute = {version = "8.5", markers = "platform_release >= \"20.0\""}
+pyobjc-framework-ModelIO = {version = "8.5", markers = "platform_release >= \"15.0\""}
+pyobjc-framework-MultipeerConnectivity = {version = "8.5", markers = "platform_release >= \"14.0\""}
+pyobjc-framework-NaturalLanguage = {version = "8.5", markers = "platform_release >= \"18.0\""}
+pyobjc-framework-NetFS = {version = "8.5", markers = "platform_release >= \"10.0\""}
+pyobjc-framework-Network = {version = "8.5", markers = "platform_release >= \"18.0\""}
+pyobjc-framework-NetworkExtension = {version = "8.5", markers = "platform_release >= \"15.0\""}
+pyobjc-framework-NotificationCenter = {version = "8.5", markers = "platform_release >= \"14.0\""}
+pyobjc-framework-OpenDirectory = {version = "8.5", markers = "platform_release >= \"10.0\""}
+pyobjc-framework-OSAKit = "8.5"
+pyobjc-framework-OSLog = {version = "8.5", markers = "platform_release >= \"19.0\""}
+pyobjc-framework-PassKit = {version = "8.5", markers = "platform_release >= \"20.0\""}
+pyobjc-framework-PencilKit = {version = "8.5", markers = "platform_release >= \"19.0\""}
+pyobjc-framework-Photos = {version = "8.5", markers = "platform_release >= \"15.0\""}
+pyobjc-framework-PhotosUI = {version = "8.5", markers = "platform_release >= \"15.0\""}
+pyobjc-framework-PreferencePanes = "8.5"
+pyobjc-framework-PubSub = {version = "8.5", markers = "platform_release >= \"9.0\" and platform_release < \"18.0\""}
+pyobjc-framework-PushKit = {version = "8.5", markers = "platform_release >= \"19.0\""}
+pyobjc-framework-Quartz = "8.5"
+pyobjc-framework-QuickLookThumbnailing = {version = "8.5", markers = "platform_release >= \"19.0\""}
+pyobjc-framework-ReplayKit = {version = "8.5", markers = "platform_release >= \"20.0\""}
+pyobjc-framework-SafariServices = {version = "8.5", markers = "platform_release >= \"15.0\""}
+pyobjc-framework-SceneKit = {version = "8.5", markers = "platform_release >= \"11.0\""}
+pyobjc-framework-ScreenCaptureKit = {version = "8.5", markers = "platform_release >= \"21.4\""}
+pyobjc-framework-ScreenSaver = "8.5"
+pyobjc-framework-ScreenTime = {version = "8.5", markers = "platform_release >= \"20.0\""}
+pyobjc-framework-ScriptingBridge = {version = "8.5", markers = "platform_release >= \"9.0\""}
+pyobjc-framework-SearchKit = "8.5"
+pyobjc-framework-Security = "8.5"
+pyobjc-framework-SecurityFoundation = "8.5"
+pyobjc-framework-SecurityInterface = "8.5"
+pyobjc-framework-ServerNotification = {version = "8.5", markers = "platform_release >= \"10.0\" and platform_release < \"13.0\""}
+pyobjc-framework-ServiceManagement = {version = "8.5", markers = "platform_release >= \"10.0\""}
+pyobjc-framework-ShazamKit = {version = "8.5", markers = "platform_release >= \"21.0\""}
+pyobjc-framework-Social = {version = "8.5", markers = "platform_release >= \"12.0\""}
+pyobjc-framework-SoundAnalysis = {version = "8.5", markers = "platform_release >= \"19.0\""}
+pyobjc-framework-Speech = {version = "8.5", markers = "platform_release >= \"19.0\""}
+pyobjc-framework-SpriteKit = {version = "8.5", markers = "platform_release >= \"13.0\""}
+pyobjc-framework-StoreKit = {version = "8.5", markers = "platform_release >= \"11.0\""}
+pyobjc-framework-SyncServices = "8.5"
+pyobjc-framework-SystemConfiguration = "8.5"
+pyobjc-framework-SystemExtensions = {version = "8.5", markers = "platform_release >= \"19.0\""}
+pyobjc-framework-UniformTypeIdentifiers = {version = "8.5", markers = "platform_release >= \"20.0\""}
+pyobjc-framework-UserNotifications = {version = "8.5", markers = "platform_release >= \"18.0\""}
+pyobjc-framework-UserNotificationsUI = {version = "8.5", markers = "platform_release >= \"20.0\""}
+pyobjc-framework-VideoSubscriberAccount = {version = "8.5", markers = "platform_release >= \"18.0\""}
+pyobjc-framework-VideoToolbox = {version = "8.5", markers = "platform_release >= \"12.0\""}
+pyobjc-framework-Virtualization = {version = "8.5", markers = "platform_release >= \"20.0\""}
+pyobjc-framework-Vision = {version = "8.5", markers = "platform_release >= \"17.0\""}
+pyobjc-framework-WebKit = "8.5"
+
+[package.extras]
+allbindings = ["pyobjc-core (==8.5)", "pyobjc-framework-libdispatch (==8.5)", "pyobjc-framework-Accessibility (==8.5)", "pyobjc-framework-AdServices (==8.5)", "pyobjc-framework-AdSupport (==8.5)", "pyobjc-framework-AppTrackingTransparency (==8.5)", "pyobjc-framework-AudioVideoBridging (==8.5)", "pyobjc-framework-AuthenticationServices (==8.5)", "pyobjc-framework-AutomaticAssessmentConfiguration (==8.5)", "pyobjc-framework-AVKit (==8.5)", "pyobjc-framework-AVFoundation (==8.5)", "pyobjc-framework-Accounts (==8.5)", "pyobjc-framework-AddressBook (==8.5)", "pyobjc-framework-AppleScriptKit (==8.5)", "pyobjc-framework-AppleScriptObjC (==8.5)", "pyobjc-framework-ApplicationServices (==8.5)", "pyobjc-framework-Automator (==8.5)", "pyobjc-framework-BusinessChat (==8.5)", "pyobjc-framework-CFNetwork (==8.5)", "pyobjc-framework-CalendarStore (==8.5)", "pyobjc-framework-CallKit (==8.5)", "pyobjc-framework-ClassKit (==8.5)", "pyobjc-framework-CloudKit (==8.5)", "pyobjc-framework-Cocoa (==8.5)", "pyobjc-framework-Collaboration (==8.5)", "pyobjc-framework-ColorSync (==8.5)", "pyobjc-framework-Contacts (==8.5)", "pyobjc-framework-ContactsUI (==8.5)", "pyobjc-framework-CoreAudio (==8.5)", "pyobjc-framework-CoreAudioKit (==8.5)", "pyobjc-framework-CoreBluetooth (==8.5)", "pyobjc-framework-CoreData (==8.5)", "pyobjc-framework-CoreHaptics (==8.5)", "pyobjc-framework-CoreLocation (==8.5)", "pyobjc-framework-CoreMedia (==8.5)", "pyobjc-framework-CoreMediaIO (==8.5)", "pyobjc-framework-CoreMIDI (==8.5)", "pyobjc-framework-CoreML (==8.5)", "pyobjc-framework-CoreMotion (==8.5)", "pyobjc-framework-CoreServices (==8.5)", "pyobjc-framework-CoreSpotlight (==8.5)", "pyobjc-framework-CoreText (==8.5)", "pyobjc-framework-CoreWLAN (==8.5)", "pyobjc-framework-CryptoTokenKit (==8.5)", "pyobjc-framework-DataDetection (==8.5)", "pyobjc-framework-DeviceCheck (==8.5)", "pyobjc-framework-DictionaryServices (==8.5)", "pyobjc-framework-DiscRecording (==8.5)", "pyobjc-framework-DiscRecordingUI (==8.5)", "pyobjc-framework-DiskArbitration (==8.5)", "pyobjc-framework-DVDPlayback (==8.5)", "pyobjc-framework-EventKit (==8.5)", "pyobjc-framework-ExceptionHandling (==8.5)", "pyobjc-framework-ExecutionPolicy (==8.5)", "pyobjc-framework-ExternalAccessory (==8.5)", "pyobjc-framework-FileProvider (==8.5)", "pyobjc-framework-FileProviderUI (==8.5)", "pyobjc-framework-FSEvents (==8.5)", "pyobjc-framework-FinderSync (==8.5)", "pyobjc-framework-GameCenter (==8.5)", "pyobjc-framework-GameController (==8.5)", "pyobjc-framework-IMServicePlugIn (==8.5)", "pyobjc-framework-InputMethodKit (==8.5)", "pyobjc-framework-ImageCaptureCore (==8.5)", "pyobjc-framework-Intents (==8.5)", "pyobjc-framework-IntentsUI (==8.5)", "pyobjc-framework-InstallerPlugins (==8.5)", "pyobjc-framework-InstantMessage (==8.5)", "pyobjc-framework-IOSurface (==8.5)", "pyobjc-framework-KernelManagement (==8.5)", "pyobjc-framework-LatentSemanticMapping (==8.5)", "pyobjc-framework-LaunchServices (==8.5)", "pyobjc-framework-LinkPresentation (==8.5)", "pyobjc-framework-LocalAuthentication (==8.5)", "pyobjc-framework-LocalAuthenticationEmbeddedUI (==8.5)", "pyobjc-framework-MailKit (==8.5)", "pyobjc-framework-MapKit (==8.5)", "pyobjc-framework-MediaAccessibility (==8.5)", "pyobjc-framework-MediaLibrary (==8.5)", "pyobjc-framework-MediaPlayer (==8.5)", "pyobjc-framework-MediaToolbox (==8.5)", "pyobjc-framework-Message (==8.5)", "pyobjc-framework-Metal (==8.5)", "pyobjc-framework-MetalKit (==8.5)", "pyobjc-framework-MetalPerformanceShaders (==8.5)", "pyobjc-framework-MetalPerformanceShadersGraph (==8.5)", "pyobjc-framework-MetricKit (==8.5)", "pyobjc-framework-MLCompute (==8.5)", "pyobjc-framework-ModelIO (==8.5)", "pyobjc-framework-MultipeerConnectivity (==8.5)", "pyobjc-framework-NaturalLanguage (==8.5)", "pyobjc-framework-NetFS (==8.5)", "pyobjc-framework-Network (==8.5)", "pyobjc-framework-NetworkExtension (==8.5)", "pyobjc-framework-NotificationCenter (==8.5)", "pyobjc-framework-OpenDirectory (==8.5)", "pyobjc-framework-OSAKit (==8.5)", "pyobjc-framework-OSLog (==8.5)", "pyobjc-framework-PassKit (==8.5)", "pyobjc-framework-PencilKit (==8.5)", "pyobjc-framework-Photos (==8.5)", "pyobjc-framework-PhotosUI (==8.5)", "pyobjc-framework-PreferencePanes (==8.5)", "pyobjc-framework-PubSub (==8.5)", "pyobjc-framework-PushKit (==8.5)", "pyobjc-framework-Quartz (==8.5)", "pyobjc-framework-QuickLookThumbnailing (==8.5)", "pyobjc-framework-ReplayKit (==8.5)", "pyobjc-framework-SafariServices (==8.5)", "pyobjc-framework-ScreenSaver (==8.5)", "pyobjc-framework-ScreenTime (==8.5)", "pyobjc-framework-ScriptingBridge (==8.5)", "pyobjc-framework-Security (==8.5)", "pyobjc-framework-SecurityFoundation (==8.5)", "pyobjc-framework-SecurityInterface (==8.5)", "pyobjc-framework-SearchKit (==8.5)", "pyobjc-framework-ServerNotification (==8.5)", "pyobjc-framework-ServiceManagement (==8.5)", "pyobjc-framework-ShazamKit (==8.5)", "pyobjc-framework-Social (==8.5)", "pyobjc-framework-Speech (==8.5)", "pyobjc-framework-SpriteKit (==8.5)", "pyobjc-framework-StoreKit (==8.5)", "pyobjc-framework-SyncServices (==8.5)", "pyobjc-framework-SystemConfiguration (==8.5)", "pyobjc-framework-WebKit (==8.5)", "pyobjc-framework-GameKit (==8.5)", "pyobjc-framework-GameplayKit (==8.5)", "pyobjc-framework-SceneKit (==8.5)", "pyobjc-framework-SoundAnalysis (==8.5)", "pyobjc-framework-ScreenCaptureKit (==8.5)", "pyobjc-framework-SystemExtensions (==8.5)", "pyobjc-framework-UniformTypeIdentifiers (==8.5)", "pyobjc-framework-UserNotifications (==8.5)", "pyobjc-framework-UserNotificationsUI (==8.5)", "pyobjc-framework-VideoSubscriberAccount (==8.5)", "pyobjc-framework-VideoToolbox (==8.5)", "pyobjc-framework-Virtualization (==8.5)", "pyobjc-framework-Vision (==8.5)", "pyobjc-framework-iTunesLibrary (==8.5)"]
+
+[[package]]
+name = "pyobjc-core"
+version = "8.5"
+description = "Python<->ObjC Interoperability Module"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
+name = "pyobjc-framework-accessibility"
+version = "8.5"
+description = "Wrappers for the framework Accessibility on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-accounts"
+version = "8.5"
+description = "Wrappers for the framework Accounts on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-addressbook"
+version = "8.5"
+description = "Wrappers for the framework AddressBook on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-adservices"
+version = "8.5"
+description = "Wrappers for the framework AdServices on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-adsupport"
+version = "8.5"
+description = "Wrappers for the framework AdSupport on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-applescriptkit"
+version = "8.5"
+description = "Wrappers for the framework AppleScriptKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-applescriptobjc"
+version = "8.5"
+description = "Wrappers for the framework AppleScriptObjC on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-applicationservices"
+version = "8.5"
+description = "Wrappers for the framework ApplicationServices on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-apptrackingtransparency"
+version = "8.5"
+description = "Wrappers for the framework AppTrackingTransparency on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-audiovideobridging"
+version = "8.5"
+description = "Wrappers for the framework AudioVideoBridging on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-authenticationservices"
+version = "8.5"
+description = "Wrappers for the framework AuthenticationServices on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-automaticassessmentconfiguration"
+version = "8.5"
+description = "Wrappers for the framework AutomaticAssessmentConfiguration on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-automator"
+version = "8.5"
+description = "Wrappers for the framework Automator on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-avfoundation"
+version = "8.5"
+description = "Wrappers for the framework AVFoundation on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-CoreAudio = ">=8.5"
+pyobjc-framework-CoreMedia = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-avkit"
+version = "8.5"
+description = "Wrappers for the framework AVKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-businesschat"
+version = "8.5"
+description = "Wrappers for the framework BusinessChat on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-calendarstore"
+version = "8.5"
+description = "Wrappers for the framework CalendarStore on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-callkit"
+version = "8.5"
+description = "Wrappers for the framework CallKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-cfnetwork"
+version = "8.5"
+description = "Wrappers for the framework CFNetwork on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-classkit"
+version = "8.5"
+description = "Wrappers for the framework ClassKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-cloudkit"
+version = "8.5"
+description = "Wrappers for the framework CloudKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Accounts = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-CoreData = ">=8.5"
+pyobjc-framework-CoreLocation = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-cocoa"
+version = "8.5"
+description = "Wrappers for the Cocoa frameworks on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-collaboration"
+version = "8.5"
+description = "Wrappers for the framework Collaboration on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-colorsync"
+version = "8.5"
+description = "Wrappers for the framework ColorSync on Mac OS X"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-contacts"
+version = "8.5"
+description = "Wrappers for the framework Contacts on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-contactsui"
+version = "8.5"
+description = "Wrappers for the framework ContactsUI on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Contacts = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-coreaudio"
+version = "8.5"
+description = "Wrappers for the framework CoreAudio on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-coreaudiokit"
+version = "8.5"
+description = "Wrappers for the framework CoreAudioKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-CoreAudio = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-corebluetooth"
+version = "8.5"
+description = "Wrappers for the framework CoreBluetooth on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-coredata"
+version = "8.5"
+description = "Wrappers for the framework CoreData on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-corehaptics"
+version = "8.5"
+description = "Wrappers for the framework CoreHaptics on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-corelocation"
+version = "8.5"
+description = "Wrappers for the framework CoreLocation on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-coremedia"
+version = "8.5"
+description = "Wrappers for the framework CoreMedia on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-coremediaio"
+version = "8.5"
+description = "Wrappers for the framework CoreMediaIO on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-coremidi"
+version = "8.5"
+description = "Wrappers for the framework CoreMIDI on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-coreml"
+version = "8.5"
+description = "Wrappers for the framework CoreML on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-coremotion"
+version = "8.5"
+description = "Wrappers for the framework CoreMotion on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-coreservices"
+version = "8.5"
+description = "Wrappers for the framework CoreServices on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-FSEvents = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-corespotlight"
+version = "8.5"
+description = "Wrappers for the framework CoreSpotlight on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-coretext"
+version = "8.5"
+description = "Wrappers for the framework CoreText on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-corewlan"
+version = "8.5"
+description = "Wrappers for the framework CoreWLAN on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-cryptotokenkit"
+version = "8.5"
+description = "Wrappers for the framework CryptoTokenKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-datadetection"
+version = "8.5"
+description = "Wrappers for the framework DataDetection on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-devicecheck"
+version = "8.5"
+description = "Wrappers for the framework DeviceCheck on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-dictionaryservices"
+version = "8.5"
+description = "Wrappers for the framework DictionaryServices on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-CoreServices = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-discrecording"
+version = "8.5"
+description = "Wrappers for the framework DiscRecording on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-discrecordingui"
+version = "8.5"
+description = "Wrappers for the framework DiscRecordingUI on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-DiscRecording = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-diskarbitration"
+version = "8.5"
+description = "Wrappers for the framework DiskArbitration on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-dvdplayback"
+version = "8.5"
+description = "Wrappers for the framework DVDPlayback on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-eventkit"
+version = "8.5"
+description = "Wrappers for the framework Accounts on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-exceptionhandling"
+version = "8.5"
+description = "Wrappers for the framework ExceptionHandling on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-executionpolicy"
+version = "8.5"
+description = "Wrappers for the framework ExecutionPolicy on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-externalaccessory"
+version = "8.5"
+description = "Wrappers for the framework ExternalAccessory on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-fileprovider"
+version = "8.5"
+description = "Wrappers for the framework FileProvider on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-fileproviderui"
+version = "8.5"
+description = "Wrappers for the framework FileProviderUI on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-FileProvider = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-findersync"
+version = "8.5"
+description = "Wrappers for the framework FinderSync on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-fsevents"
+version = "8.5"
+description = "Wrappers for the framework FSEvents on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-gamecenter"
+version = "8.5"
+description = "Wrappers for the framework GameCenter on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-gamecontroller"
+version = "8.5"
+description = "Wrappers for the framework GameController on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-gamekit"
+version = "8.5"
+description = "Wrappers for the framework GameKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-gameplaykit"
+version = "8.5"
+description = "Wrappers for the framework GameplayKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-SpriteKit = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-imagecapturecore"
+version = "8.5"
+description = "Wrappers for the framework ImageCaptureCore on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-imserviceplugin"
+version = "8.5"
+description = "Wrappers for the framework IMServicePlugIn on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-inputmethodkit"
+version = "8.5"
+description = "Wrappers for the framework InputMethodKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-installerplugins"
+version = "8.5"
+description = "Wrappers for the framework InstallerPlugins on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-instantmessage"
+version = "8.5"
+description = "Wrappers for the framework InstantMessage on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-intents"
+version = "8.5"
+description = "Wrappers for the framework Intents on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-intentsui"
+version = "8.5"
+description = "Wrappers for the framework Intents on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Intents = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-iosurface"
+version = "8.5"
+description = "Wrappers for the framework IOSurface on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-ituneslibrary"
+version = "8.5"
+description = "Wrappers for the framework iTunesLibrary on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-kernelmanagement"
+version = "8.5"
+description = "Wrappers for the framework KernelManagement on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-latentsemanticmapping"
+version = "8.5"
+description = "Wrappers for the framework LatentSemanticMapping on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-launchservices"
+version = "8.5"
+description = "Wrappers for the framework LaunchServices on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-CoreServices = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-libdispatch"
+version = "8.5"
+description = "Wrappers for libdispatch on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-linkpresentation"
+version = "8.5"
+description = "Wrappers for the framework LinkPresentation on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-localauthentication"
+version = "8.5"
+description = "Wrappers for the framework LocalAuthentication on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Security = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-localauthenticationembeddedui"
+version = "8.5"
+description = "Wrappers for the framework LocalAuthenticationEmbeddedUI on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-LocalAuthentication = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-mailkit"
+version = "8.5"
+description = "Wrappers for the framework MailKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-mapkit"
+version = "8.5"
+description = "Wrappers for the framework MapKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-CoreLocation = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-mediaaccessibility"
+version = "8.5"
+description = "Wrappers for the framework MediaAccessibility on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-medialibrary"
+version = "8.5"
+description = "Wrappers for the framework MediaLibrary on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-mediaplayer"
+version = "8.5"
+description = "Wrappers for the framework MediaPlayer on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-AVFoundation = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-mediatoolbox"
+version = "8.5"
+description = "Wrappers for the framework MediaToolbox on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-message"
+version = "8.5"
+description = "Wrappers for the framework Message on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-metal"
+version = "8.5"
+description = "Wrappers for the framework Metal on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-metalkit"
+version = "8.5"
+description = "Wrappers for the framework MetalKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Metal = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-metalperformanceshaders"
+version = "8.5"
+description = "Wrappers for the framework MetalPerformanceShaders on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Metal = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-metalperformanceshadersgraph"
+version = "8.5"
+description = "Wrappers for the framework MetalPerformanceShadersGraph on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-MetalPerformanceShaders = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-metrickit"
+version = "8.5"
+description = "Wrappers for the framework MetricKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-mlcompute"
+version = "8.5"
+description = "Wrappers for the framework MLCompute on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-modelio"
+version = "8.5"
+description = "Wrappers for the framework ModelIO on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-multipeerconnectivity"
+version = "8.5"
+description = "Wrappers for the framework MultipeerConnectivity on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-naturallanguage"
+version = "8.5"
+description = "Wrappers for the framework NaturalLanguage on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-netfs"
+version = "8.5"
+description = "Wrappers for the framework NetFS on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-network"
+version = "8.5"
+description = "Wrappers for the framework Network on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-networkextension"
+version = "8.5"
+description = "Wrappers for the framework NetworkExtension on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-notificationcenter"
+version = "8.5"
+description = "Wrappers for the framework NotificationCenter on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-opendirectory"
+version = "8.5"
+description = "Wrappers for the framework OpenDirectory on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-osakit"
+version = "8.5"
+description = "Wrappers for the framework OSAKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-oslog"
+version = "8.5"
+description = "Wrappers for the framework OSLog on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-CoreMedia = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-passkit"
+version = "8.5"
+description = "Wrappers for the framework PassKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-pencilkit"
+version = "8.5"
+description = "Wrappers for the framework PencilKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-photos"
+version = "8.5"
+description = "Wrappers for the framework Photos on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-photosui"
+version = "8.5"
+description = "Wrappers for the framework PhotosUI on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-preferencepanes"
+version = "8.5"
+description = "Wrappers for the framework PreferencePanes on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-pubsub"
+version = "8.5"
+description = "Wrappers for the framework PubSub on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-pushkit"
+version = "8.5"
+description = "Wrappers for the framework PushKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-quartz"
+version = "8.5"
+description = "Wrappers for the Quartz frameworks on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-quicklookthumbnailing"
+version = "8.5"
+description = "Wrappers for the framework QuickLookThumbnailing on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-replaykit"
+version = "8.5"
+description = "Wrappers for the framework ReplayKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-safariservices"
+version = "8.5"
+description = "Wrappers for the framework SafariServices on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-scenekit"
+version = "8.5"
+description = "Wrappers for the framework SceneKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-screencapturekit"
+version = "8.5"
+description = "Wrappers for the framework ScreenCaptureKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-CoreMedia = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-screensaver"
+version = "8.5"
+description = "Wrappers for the framework ScreenSaver on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-screentime"
+version = "8.5"
+description = "Wrappers for the framework ScreenTime on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-scriptingbridge"
+version = "8.5"
+description = "Wrappers for the framework ScriptingBridge on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-searchkit"
+version = "8.5"
+description = "Wrappers for the framework SearchKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-CoreServices = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-security"
+version = "8.5"
+description = "Wrappers for the framework Security on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-securityfoundation"
+version = "8.5"
+description = "Wrappers for the framework SecurityFoundation on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Security = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-securityinterface"
+version = "8.5"
+description = "Wrappers for the framework SecurityInterface on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Security = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-servernotification"
+version = "8.5"
+description = "Wrappers for the framework ServerNotification on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-servicemanagement"
+version = "8.5"
+description = "Wrappers for the framework ServiceManagement on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-shazamkit"
+version = "8.5"
+description = "Wrappers for the framework ShazamKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-social"
+version = "8.5"
+description = "Wrappers for the framework Social on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-soundanalysis"
+version = "8.5"
+description = "Wrappers for the framework SoundAnalysis on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-speech"
+version = "8.5"
+description = "Wrappers for the framework Speech on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-spritekit"
+version = "8.5"
+description = "Wrappers for the framework SpriteKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-storekit"
+version = "8.5"
+description = "Wrappers for the framework StoreKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-syncservices"
+version = "8.5"
+description = "Wrappers for the framework SyncServices on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-CoreData = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-systemconfiguration"
+version = "8.5"
+description = "Wrappers for the framework SystemConfiguration on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-systemextensions"
+version = "8.5"
+description = "Wrappers for the framework SystemExtensions on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-uniformtypeidentifiers"
+version = "8.5"
+description = "Wrappers for the framework UniformTypeIdentifiers on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-usernotifications"
+version = "8.5"
+description = "Wrappers for the framework UserNotifications on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-usernotificationsui"
+version = "8.5"
+description = "Wrappers for the framework UserNotificationsUI on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-UserNotifications = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-videosubscriberaccount"
+version = "8.5"
+description = "Wrappers for the framework VideoSubscriberAccount on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-videotoolbox"
+version = "8.5"
+description = "Wrappers for the framework VideoToolbox on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-CoreMedia = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-virtualization"
+version = "8.5"
+description = "Wrappers for the framework Virtualization on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-vision"
+version = "8.5"
+description = "Wrappers for the framework Vision on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+pyobjc-framework-CoreML = ">=8.5"
+pyobjc-framework-Quartz = ">=8.5"
+
+[[package]]
+name = "pyobjc-framework-webkit"
+version = "8.5"
+description = "Wrappers for the framework WebKit on macOS"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyobjc-core = ">=8.5"
+pyobjc-framework-Cocoa = ">=8.5"
+
+[[package]]
+name = "pyparsing"
+version = "3.0.9"
+description = "pyparsing module - Classes and methods to define and execute parsing grammars"
+category = "dev"
+optional = false
+python-versions = ">=3.6.8"
+
+[package.extras]
+diagrams = ["railroad-diagrams", "jinja2"]
+
+[[package]]
+name = "pypdf2"
+version = "2.4.2"
+description = "A pure-python PDF library capable of splitting, merging, cropping, and transforming PDF files"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+typing-extensions = {version = "*", markers = "python_version < \"3.10\""}
+
+[package.extras]
+crypto = ["pycryptodome"]
+
+[[package]]
+name = "pypiwin32"
+version = "223"
+description = ""
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+pywin32 = ">=223"
+
+[[package]]
+name = "pytest"
+version = "5.4.3"
+description = "pytest: simple powerful testing with Python"
+category = "dev"
+optional = false
+python-versions = ">=3.5"
+
+[package.dependencies]
+atomicwrites = {version = ">=1.0", markers = "sys_platform == \"win32\""}
+attrs = ">=17.4.0"
+colorama = {version = "*", markers = "sys_platform == \"win32\""}
+more-itertools = ">=4.0.0"
+packaging = "*"
+pluggy = ">=0.12,<1.0"
+py = ">=1.5.0"
+wcwidth = "*"
+
+[package.extras]
+checkqa-mypy = ["mypy (==v0.761)"]
+testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xmlschema"]
+
+[[package]]
+name = "pyttsx3"
+version = "2.90"
+description = "Text to Speech (TTS) library for Python 2 and 3. Works without internet connection or delay. Supports multiple TTS engines, including Sapi5, nsss, and espeak."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+comtypes = {version = "*", markers = "platform_system == \"Windows\""}
+pyobjc = {version = ">=2.4", markers = "platform_system == \"Darwin\""}
+pypiwin32 = {version = "*", markers = "platform_system == \"Windows\""}
+pywin32 = {version = "*", markers = "platform_system == \"Windows\""}
+
+[[package]]
+name = "pywin32"
+version = "304"
+description = "Python for Window Extensions"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "typing-extensions"
+version = "4.3.0"
+description = "Backported and Experimental Type Hints for Python 3.7+"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
+name = "wcwidth"
+version = "0.2.5"
+description = "Measures the displayed width of unicode strings in a terminal"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "a0536953576737d46655bf743604cc55348db7257292d04d6b1490a44bd4c87d"
+
+[metadata.files]
+atomicwrites = []
+attrs = [
+    {file = "attrs-21.4.0-py2.py3-none-any.whl", hash = "sha256:2d27e3784d7a565d36ab851fe94887c5eccd6a463168875832a1be79c82828b4"},
+    {file = "attrs-21.4.0.tar.gz", hash = "sha256:626ba8234211db98e869df76230a137c4c40a12d72445c45d5f5b716f076e2fd"},
+]
+colorama = []
+comtypes = []
+more-itertools = []
+packaging = [
+    {file = "packaging-21.3-py3-none-any.whl", hash = "sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"},
+    {file = "packaging-21.3.tar.gz", hash = "sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb"},
+]
+pluggy = [
+    {file = "pluggy-0.13.1-py2.py3-none-any.whl", hash = "sha256:966c145cd83c96502c3c3868f50408687b38434af77734af1e9ca461a4081d2d"},
+    {file = "pluggy-0.13.1.tar.gz", hash = "sha256:15b2acde666561e1298d71b523007ed7364de07029219b604cf808bfa1c765b0"},
+]
+py = [
+    {file = "py-1.11.0-py2.py3-none-any.whl", hash = "sha256:607c53218732647dff4acdfcd50cb62615cedf612e72d1724fb1a0cc6405b378"},
+    {file = "py-1.11.0.tar.gz", hash = "sha256:51c75c4126074b472f746a24399ad32f6053d1b34b68d2fa41e558e6f4a98719"},
+]
+pyobjc = []
+pyobjc-core = []
+pyobjc-framework-accessibility = [
+    {file = "pyobjc-framework-Accessibility-8.5.tar.gz", hash = "sha256:cfe60c131891ff43fc2b2a94f8135f2d6c42800eb027d1b70886bae249eb77da"},
+    {file = "pyobjc_framework_Accessibility-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:9e892ee41554a2f504fd19e39f316bf60ad5bc98a86de4c9fa73bcf0191a5d4a"},
+    {file = "pyobjc_framework_Accessibility-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:132c91b96d0ed9637e1b1313c5436d0450e7b6b77aa1d13ee1adf7aa7c648b05"},
+    {file = "pyobjc_framework_Accessibility-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:1e1491132017c3c23229c2c16ac16f1ac770e0eeccf3a31ac2b799ebe0044cfa"},
+]
+pyobjc-framework-accounts = [
+    {file = "pyobjc-framework-Accounts-8.5.tar.gz", hash = "sha256:e971fa28d1543a0a00234ea2a5d3fe208387ea5e13fa78f90adecd59f99beffe"},
+    {file = "pyobjc_framework_Accounts-8.5-py2.py3-none-any.whl", hash = "sha256:67abb8dfa974c0b1924cd13c4d95ec013b29ddac6e2b8283eab2c8dabf6cfb28"},
+]
+pyobjc-framework-addressbook = [
+    {file = "pyobjc-framework-AddressBook-8.5.tar.gz", hash = "sha256:d41a8a5b088e7eba6a828477ec221e61de2a75e1769ce060c2713b44d7be439b"},
+    {file = "pyobjc_framework_AddressBook-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:3266c56c1c5d78c384ddd73caf23e65e1cfb12ea4fa9bc3b1575b6acc195da44"},
+    {file = "pyobjc_framework_AddressBook-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:63fc856bd75ec7b9dba559902053fe2cba86032dea149b20c24425b1a07f0973"},
+    {file = "pyobjc_framework_AddressBook-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:bc85c225dad8e4307a7e80d1b99299fb4b4575a83f0f880635abae836913b20b"},
+]
+pyobjc-framework-adservices = []
+pyobjc-framework-adsupport = [
+    {file = "pyobjc-framework-AdSupport-8.5.tar.gz", hash = "sha256:36e5331c4751d923f32d1a49b4328fabd482a13f727d3bd45f9cb1cefa054e96"},
+    {file = "pyobjc_framework_AdSupport-8.5-py2.py3-none-any.whl", hash = "sha256:fe562dc1ff04e73c4cf5995f5ba959410b3772743dc63425849572886229b384"},
+]
+pyobjc-framework-applescriptkit = []
+pyobjc-framework-applescriptobjc = []
+pyobjc-framework-applicationservices = []
+pyobjc-framework-apptrackingtransparency = [
+    {file = "pyobjc-framework-AppTrackingTransparency-8.5.tar.gz", hash = "sha256:1c3e2e2bb80df9e02532fe1762e84468f05646acdc131e5f29fa18e2fb14cee3"},
+    {file = "pyobjc_framework_AppTrackingTransparency-8.5-py2.py3-none-any.whl", hash = "sha256:0aed6d40245aae09bcb3bb2616b80b6c6debcbb2c4efc875b60fe6c35f77eaa0"},
+]
+pyobjc-framework-audiovideobridging = [
+    {file = "pyobjc-framework-AudioVideoBridging-8.5.tar.gz", hash = "sha256:756230612a5d418043e860bc67162a61e754ce71dc34f486d7dd756c4789bee4"},
+    {file = "pyobjc_framework_AudioVideoBridging-8.5-py2.py3-none-any.whl", hash = "sha256:d2a0cf6bb696a385722cfb7d33afa5bd08c79e231fba22879cb743236e63b63d"},
+]
+pyobjc-framework-authenticationservices = []
+pyobjc-framework-automaticassessmentconfiguration = [
+    {file = "pyobjc-framework-AutomaticAssessmentConfiguration-8.5.tar.gz", hash = "sha256:ce67b419fa5adf994f6fc4d2a3dacf48e8b433ba09ce22af9b617d4bd97e4ebd"},
+    {file = "pyobjc_framework_AutomaticAssessmentConfiguration-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:f3566dc05f06d464f84383596d0b055eb90d24a8ada4b447fbd4114cf1a8dcaa"},
+    {file = "pyobjc_framework_AutomaticAssessmentConfiguration-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:9e452df0d1be76f4997b9242186add0c8cfb1498977ec3e3fc136ec09867c3da"},
+    {file = "pyobjc_framework_AutomaticAssessmentConfiguration-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:65bcc9b85159c93249854ce1c4ddef6bfaf85227f98fb89c311536b30dcb5258"},
+]
+pyobjc-framework-automator = []
+pyobjc-framework-avfoundation = []
+pyobjc-framework-avkit = []
+pyobjc-framework-businesschat = []
+pyobjc-framework-calendarstore = [
+    {file = "pyobjc-framework-CalendarStore-8.5.tar.gz", hash = "sha256:4df02c2e99cfb8c1ed753c63c313da552dfac210ebb72a9b8cd5dd33466894b0"},
+    {file = "pyobjc_framework_CalendarStore-8.5-py2.py3-none-any.whl", hash = "sha256:efdbd64154e351e5383aaea38cd37a8ac49963baf70d51c17edb80e95c5daa9f"},
+]
+pyobjc-framework-callkit = [
+    {file = "pyobjc-framework-CallKit-8.5.tar.gz", hash = "sha256:877a9861b89fb483491d6395838c49241cd8457bc49c721a32dc2de573bec7d8"},
+    {file = "pyobjc_framework_CallKit-8.5-py2.py3-none-any.whl", hash = "sha256:f3cccdb264aac23b9241c838c09b8a4e3ec3ebc1c8d76eb2b7a18d0a21dcc23c"},
+]
+pyobjc-framework-cfnetwork = [
+    {file = "pyobjc-framework-CFNetwork-8.5.tar.gz", hash = "sha256:6c588d1846faa623b4611a1a22132c1d794330b90190b3ff1ab14fdb6d884c34"},
+    {file = "pyobjc_framework_CFNetwork-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:9be7d9da59911cbef9e83a3cc7d90b6ac3de118a900427815e22a2c3486773cb"},
+    {file = "pyobjc_framework_CFNetwork-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:91ffa69b1e738c8dd641468aaf835e46b60e37307ec4c3f10234e6e196c1b75a"},
+    {file = "pyobjc_framework_CFNetwork-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:7c327f7bbf53cc8971746f78b5dd3f0ab0d70c8e57dbaf591011f63db955bc6a"},
+]
+pyobjc-framework-classkit = [
+    {file = "pyobjc-framework-ClassKit-8.5.tar.gz", hash = "sha256:d65af93ab96f1c4b95c0b3379d2352a965a8f200198b440d6866beade683cde7"},
+    {file = "pyobjc_framework_ClassKit-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:1f122870a791c0160e38b532c5cad68ffa68fe5fd5e6c9663f3732309d5d6d69"},
+    {file = "pyobjc_framework_ClassKit-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:97551791a2f14bd22409eab25d215919ba3e1dbd39437f6235bcb9fb168d98e3"},
+    {file = "pyobjc_framework_ClassKit-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:9bae42fa97ffaf5937ac205db7df0f5f935de51826a179352e6a0c793be1ce7c"},
+]
+pyobjc-framework-cloudkit = [
+    {file = "pyobjc-framework-CloudKit-8.5.tar.gz", hash = "sha256:eae6d07b7951f41d0d22658f8918022c7f88bbb022b6ccfddebc069ff66a3fe3"},
+    {file = "pyobjc_framework_CloudKit-8.5-py2.py3-none-any.whl", hash = "sha256:2beb0509ef5b3dc8f6110517939b43317d5011aeda79c134f93b9d84d76f5f43"},
+]
+pyobjc-framework-cocoa = []
+pyobjc-framework-collaboration = [
+    {file = "pyobjc-framework-Collaboration-8.5.tar.gz", hash = "sha256:4396edf4e6ead90c5a4dce3d932e4314fa71b0cea57478b2427b1bf06422f331"},
+    {file = "pyobjc_framework_Collaboration-8.5-py2.py3-none-any.whl", hash = "sha256:7cda382202199ae599bddeda136503e82de453f2790400caf8ec2be41962e17b"},
+]
+pyobjc-framework-colorsync = [
+    {file = "pyobjc-framework-ColorSync-8.5.tar.gz", hash = "sha256:52e1bec607ec89fd04d083be4d7d1fc244c35269409015345c4793a023d88df8"},
+    {file = "pyobjc_framework_ColorSync-8.5-py2.py3-none-any.whl", hash = "sha256:9cbf45dee34e97ad4807c303095b8e97fd601f1c442dfb18f4c84351807d3f8b"},
+]
+pyobjc-framework-contacts = [
+    {file = "pyobjc-framework-Contacts-8.5.tar.gz", hash = "sha256:2f82b3986582f7a5417579d2c3ed52aeeb5ab7f364ac527a664c762e8ca2c855"},
+    {file = "pyobjc_framework_Contacts-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:7dca48bb488f2d583f029aaf08b1bdfa0d303d0dbedc63e0596eb6f763f46a14"},
+    {file = "pyobjc_framework_Contacts-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:3abf52f986b38a00996d00ce5fe51630ca91f46992ffc686e00afb00e0bb5de9"},
+    {file = "pyobjc_framework_Contacts-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:3c23a50bae495470db9d20b603f65ea3a802a081fb8684d91387c97c6cb8a4b1"},
+]
+pyobjc-framework-contactsui = [
+    {file = "pyobjc-framework-ContactsUI-8.5.tar.gz", hash = "sha256:72d01c265250d2cbb4e13aff46da44a1da5dbc7b45119dcc6d7a82bc384f05cd"},
+    {file = "pyobjc_framework_ContactsUI-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:f2ecb7bd0334fd5dc7a76156eeacd64521135b469af903882c47c8330d9e6b9f"},
+    {file = "pyobjc_framework_ContactsUI-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:0c1dd9a505d1e69ba6e3df46816cbc7d306a277f1e887ffa1f864f8da6c262bf"},
+    {file = "pyobjc_framework_ContactsUI-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:db9f58a855c632d6dec39239c7a8f1225eec210466cf6ca5905138d27d67f46e"},
+]
+pyobjc-framework-coreaudio = []
+pyobjc-framework-coreaudiokit = [
+    {file = "pyobjc-framework-CoreAudioKit-8.5.tar.gz", hash = "sha256:4134ae64aaa3bf40df4a65e0f3ce0499a540aee457722f9ff135b1c083f5a2d6"},
+    {file = "pyobjc_framework_CoreAudioKit-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:a254c73b13b39fe62b7306784b2ced372a1b7ff84625dcdaaef36f20f6982cbb"},
+    {file = "pyobjc_framework_CoreAudioKit-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:c99af3ab27ad50fa07a92b3b8fc70bf4fcf083388ad874f33c5c7291714065ad"},
+    {file = "pyobjc_framework_CoreAudioKit-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:734b64f046c6c272c489d004e887583208a5ad5f5e0e200b778affc87a118c5d"},
+]
+pyobjc-framework-corebluetooth = []
+pyobjc-framework-coredata = []
+pyobjc-framework-corehaptics = []
+pyobjc-framework-corelocation = []
+pyobjc-framework-coremedia = []
+pyobjc-framework-coremediaio = []
+pyobjc-framework-coremidi = []
+pyobjc-framework-coreml = []
+pyobjc-framework-coremotion = [
+    {file = "pyobjc-framework-CoreMotion-8.5.tar.gz", hash = "sha256:f9755faf401bcf9c5493a3a583a4203313ba91115895da025b634337d4dbe0d4"},
+    {file = "pyobjc_framework_CoreMotion-8.5-py2.py3-none-any.whl", hash = "sha256:d3c24dbf01309b69ac75e24f7368e8a52a5d8d84beaa064c459ae88b4575ba55"},
+]
+pyobjc-framework-coreservices = []
+pyobjc-framework-corespotlight = [
+    {file = "pyobjc-framework-CoreSpotlight-8.5.tar.gz", hash = "sha256:ab90c64c38d8c3c6945c6db4ffd93333854a992fcca4ac5d9ece98ad575a9254"},
+    {file = "pyobjc_framework_CoreSpotlight-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:18884b99872fb081e79b55a20c82c98182b9917ed915d05c9c57d23c8442bc90"},
+    {file = "pyobjc_framework_CoreSpotlight-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:6060b6252c95207c695a59e3d938d8102834cc23856ee9ab82ebaa6531997408"},
+    {file = "pyobjc_framework_CoreSpotlight-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:35a775bbfa5d056b9333c4e60eb80d447c135321e8187a6583f30de52385b022"},
+]
+pyobjc-framework-coretext = []
+pyobjc-framework-corewlan = []
+pyobjc-framework-cryptotokenkit = []
+pyobjc-framework-datadetection = []
+pyobjc-framework-devicecheck = []
+pyobjc-framework-dictionaryservices = []
+pyobjc-framework-discrecording = [
+    {file = "pyobjc-framework-DiscRecording-8.5.tar.gz", hash = "sha256:dc3f3fa26d482a5a470e4f09fe909647f5125df241a27ed8eb5c6a71c534a01e"},
+    {file = "pyobjc_framework_DiscRecording-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:3f9d920726f85af5e3e33c71efd8c39e64e41e71824e2e1304a0eed8aa795a6a"},
+    {file = "pyobjc_framework_DiscRecording-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:e4b92532ecc180cc9ed382da6fe7c6ef8ac9621b08b52c20c75bbc62fd57326c"},
+    {file = "pyobjc_framework_DiscRecording-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:8c5551a56021d0c46d9f9db76242f05186a9d10ed326dedb5eedc7444361f5e5"},
+]
+pyobjc-framework-discrecordingui = []
+pyobjc-framework-diskarbitration = []
+pyobjc-framework-dvdplayback = [
+    {file = "pyobjc-framework-DVDPlayback-8.5.tar.gz", hash = "sha256:315e19387456916ab0dcb6fcac43697e7eee86403ae5a1b508ae1e7a92cb463f"},
+    {file = "pyobjc_framework_DVDPlayback-8.5-py2.py3-none-any.whl", hash = "sha256:7708ae636614f059a0c36f43e61727593bc31c119d4aaf0782603e38269b2e10"},
+]
+pyobjc-framework-eventkit = []
+pyobjc-framework-exceptionhandling = [
+    {file = "pyobjc-framework-ExceptionHandling-8.5.tar.gz", hash = "sha256:cfac42ba49655c654580aff87ac16f7bcdc44ee330a77acc177b0ebfd414facb"},
+    {file = "pyobjc_framework_ExceptionHandling-8.5-py2.py3-none-any.whl", hash = "sha256:c2014ccd1c78c4b4a8aeae7ba62cb86d1c9d46f523b1e8efd1d47bb4da99cc2d"},
+]
+pyobjc-framework-executionpolicy = []
+pyobjc-framework-externalaccessory = [
+    {file = "pyobjc-framework-ExternalAccessory-8.5.tar.gz", hash = "sha256:37e8d782fedcedf062140d1c3df6b5e145e1bbe692f3c8db6bc7d736bc6f2c17"},
+    {file = "pyobjc_framework_ExternalAccessory-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:cd9fbc2762fab7d92ea3a41787dba3c2ac1326912db45dab63a681aeffa160ba"},
+    {file = "pyobjc_framework_ExternalAccessory-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:173024f500fa7280b7fa4737277de75c3bb70efc6c012e3eec4045d3ed60ef7d"},
+    {file = "pyobjc_framework_ExternalAccessory-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:b87c2fd9cf6780579bc346845794d82dafbe297c8ee5e43893425538268d6f30"},
+]
+pyobjc-framework-fileprovider = []
+pyobjc-framework-fileproviderui = []
+pyobjc-framework-findersync = [
+    {file = "pyobjc-framework-FinderSync-8.5.tar.gz", hash = "sha256:c5ecad2081b78579965c564bef9d5a6e97d2c5dcc3d47109e94876ebed4b41d4"},
+    {file = "pyobjc_framework_FinderSync-8.5-py2.py3-none-any.whl", hash = "sha256:4b707078362dc9441a8058d8a472f54d2caba344c258408bbf937c1bedbd86de"},
+]
+pyobjc-framework-fsevents = []
+pyobjc-framework-gamecenter = [
+    {file = "pyobjc-framework-GameCenter-8.5.tar.gz", hash = "sha256:fd357cb824468ac0bc484cfa4110551378788cf411f24a8f942a9d33c8ba74f4"},
+    {file = "pyobjc_framework_GameCenter-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:3125b6a61a4338c9b291548c228e6e96a8848020dce97d6e1d6741c70a1bd2d3"},
+    {file = "pyobjc_framework_GameCenter-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:c07dbb72900f0c4b6fc203567b044fcbf4579718ff2b90f81a906a719caab396"},
+    {file = "pyobjc_framework_GameCenter-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:a25f1c0ca7c61d77abc87a86d4f611d39d4fe9aa89acb779b7c98163d8c781cc"},
+]
+pyobjc-framework-gamecontroller = []
+pyobjc-framework-gamekit = [
+    {file = "pyobjc-framework-GameKit-8.5.tar.gz", hash = "sha256:612284664ff2234f2d36fa8d928a65160a7dd40c90c5044e6155db652926fae2"},
+    {file = "pyobjc_framework_GameKit-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:9f96cfa5c25fb956f54af686282e2e70ad106461bede400e59b379eca57b7211"},
+    {file = "pyobjc_framework_GameKit-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:a91d632f09751f6d05c96040fcd79685f1d31f4b4f7d8a4fce5af682bf827e18"},
+    {file = "pyobjc_framework_GameKit-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:f97085d5b5f98f4237074dd431042aa3c90c2b72ebea420b1f83abc55024a6d6"},
+]
+pyobjc-framework-gameplaykit = []
+pyobjc-framework-imagecapturecore = [
+    {file = "pyobjc-framework-ImageCaptureCore-8.5.tar.gz", hash = "sha256:b7bd515affee27737d0292bc6aab49c0248077454dbcf01beda8e3f231791d38"},
+    {file = "pyobjc_framework_ImageCaptureCore-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:3b47f5441f164c69e1ae7669526f0c61f5a1c1c268bb41026bd56374375f6ac1"},
+    {file = "pyobjc_framework_ImageCaptureCore-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:0393dd36340b2c8d177d7daa8e6c817d46ec7d418e6e5d858ee8ec928d9fc195"},
+    {file = "pyobjc_framework_ImageCaptureCore-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:399bd0bdcb9764cd7f1407599fe30eaff23682b08b34a24e240cfb483199011d"},
+]
+pyobjc-framework-imserviceplugin = []
+pyobjc-framework-inputmethodkit = [
+    {file = "pyobjc-framework-InputMethodKit-8.5.tar.gz", hash = "sha256:dfe85508af982fca673803404fec623c4aa0bc3a77488cf29b9bc83d31a36ed1"},
+    {file = "pyobjc_framework_InputMethodKit-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:9fde77ad8bc8601fc3982f453a0c3b4ff21ffcefa29333cdef3fc6b5b0aca12f"},
+    {file = "pyobjc_framework_InputMethodKit-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:3c32bb371905c610034fd737c82011dcdb76de62c15dbbdd67de751e1991ac98"},
+    {file = "pyobjc_framework_InputMethodKit-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:eb6c706b26f27a034e3917245ca431178cb4fcc0acbd2b0d80e4a4bf35163212"},
+]
+pyobjc-framework-installerplugins = []
+pyobjc-framework-instantmessage = []
+pyobjc-framework-intents = [
+    {file = "pyobjc-framework-Intents-8.5.tar.gz", hash = "sha256:da7eb47977de518a129ce6457e826b0884efe809bb15ff6a9c4f5e77fe6d2313"},
+    {file = "pyobjc_framework_Intents-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:b098842bb1d69b000e9d85f202fdefc0b97936d3c6f845dc529e29728be3098d"},
+    {file = "pyobjc_framework_Intents-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:cb32e822754b24495769347176342433ede59621596c2c4561700ca26df34074"},
+    {file = "pyobjc_framework_Intents-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:70f5f80005c308e4a5b369dadf17f5b2b774bc4fd60a0e4ce5ed1d4c9d0ea014"},
+]
+pyobjc-framework-intentsui = []
+pyobjc-framework-iosurface = []
+pyobjc-framework-ituneslibrary = []
+pyobjc-framework-kernelmanagement = [
+    {file = "pyobjc-framework-KernelManagement-8.5.tar.gz", hash = "sha256:be7695f0f24937f557b5354f43f55dc25812dd7eda22603d77eccd6f48070aa9"},
+    {file = "pyobjc_framework_KernelManagement-8.5-py2.py3-none-any.whl", hash = "sha256:bc4d2109c0c9faebc26246e8c90a63e647cea790c08431ca28a5d4cf0524a23b"},
+]
+pyobjc-framework-latentsemanticmapping = [
+    {file = "pyobjc-framework-LatentSemanticMapping-8.5.tar.gz", hash = "sha256:fdc25797fa6d6adb7fa71c394117b5050820239ca3a7b82efe4a6a6e529c490b"},
+    {file = "pyobjc_framework_LatentSemanticMapping-8.5-py2.py3-none-any.whl", hash = "sha256:3eb2cd0758b61f68cfe58f7ec05acc020c0a633735c0b604a8701929d20f6189"},
+]
+pyobjc-framework-launchservices = [
+    {file = "pyobjc-framework-LaunchServices-8.5.tar.gz", hash = "sha256:0c999612bcc961361baf93ae3fe13e69a673bfecbf526e921e53f2e04005cd43"},
+    {file = "pyobjc_framework_LaunchServices-8.5-py2.py3-none-any.whl", hash = "sha256:f8d0c8577db3f4a7223a4c18e6453d3431d97c3041462a234492a08da1cde010"},
+]
+pyobjc-framework-libdispatch = []
+pyobjc-framework-linkpresentation = []
+pyobjc-framework-localauthentication = [
+    {file = "pyobjc-framework-LocalAuthentication-8.5.tar.gz", hash = "sha256:c66ab1292e8d94ad91f863586116719116b34e872b83cda0989b31a1eb31d3d7"},
+    {file = "pyobjc_framework_LocalAuthentication-8.5-py2.py3-none-any.whl", hash = "sha256:ed996158246336b02e291f3bc797fded94a0d7c3ba4347fa2246d3b0dd08140a"},
+]
+pyobjc-framework-localauthenticationembeddedui = []
+pyobjc-framework-mailkit = []
+pyobjc-framework-mapkit = [
+    {file = "pyobjc-framework-MapKit-8.5.tar.gz", hash = "sha256:fb9060ad279dd9253caaf1c8e31940678799f5b8ee6d74bc5de6507715e3f4c9"},
+    {file = "pyobjc_framework_MapKit-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:2a364a137a14ebd033cfc76aa33fec7fb2513191ecdf5091aec90526bc37d30a"},
+    {file = "pyobjc_framework_MapKit-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:67aed69f9ac244fea75711478bbc3020b03f8fe2dd67058af73362e9877acc96"},
+    {file = "pyobjc_framework_MapKit-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:c75e18d3f416bea99af94c940f26022bef7acd0bc7bd8f5fd996a00cb47b4c18"},
+]
+pyobjc-framework-mediaaccessibility = []
+pyobjc-framework-medialibrary = [
+    {file = "pyobjc-framework-MediaLibrary-8.5.tar.gz", hash = "sha256:dc22671c57e1e956977b4656905562cbe87ea32132159637009c73b221c3f1c3"},
+    {file = "pyobjc_framework_MediaLibrary-8.5-py2.py3-none-any.whl", hash = "sha256:90e9db486c23f2346eb6a7f2fc0abb1e1cfa0a172d93373070413b685ee592e5"},
+]
+pyobjc-framework-mediaplayer = []
+pyobjc-framework-mediatoolbox = [
+    {file = "pyobjc-framework-MediaToolbox-8.5.tar.gz", hash = "sha256:46d777892de00abc492adcbbb59752780f838ecde3ec168de618a95db50eaa0f"},
+    {file = "pyobjc_framework_MediaToolbox-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:d7cbb3338dc8c32d5a06685c6d11e36a0574786312daac98a4b746649b1a6101"},
+    {file = "pyobjc_framework_MediaToolbox-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:21a6561e6859e0752a0baa99cd3cfe9f2a3c1c80a9fa39c19b40a21b8d9f21a2"},
+    {file = "pyobjc_framework_MediaToolbox-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:8b851d122c235dec90bb630e288625933f6f10e8e83974bc6121c4ddff2cc61c"},
+]
+pyobjc-framework-message = []
+pyobjc-framework-metal = [
+    {file = "pyobjc-framework-Metal-8.5.tar.gz", hash = "sha256:da7e20987ee087a6e7bf213305449b5b7345c8c55f3506b9e26a1b05215da679"},
+    {file = "pyobjc_framework_Metal-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:68b12b1fbe564e4dfcb36717847d7527e9e4a8c4922413e2615a88ae3c7373fc"},
+    {file = "pyobjc_framework_Metal-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:4d16ae87263e450a88eb1bc3e49ef650935e02173df8e7594998bfc29a34cde4"},
+    {file = "pyobjc_framework_Metal-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:f76f814635fc3320e0703f3f18573e1f9d2d2c3e560cdef20a2b538f95298b01"},
+]
+pyobjc-framework-metalkit = []
+pyobjc-framework-metalperformanceshaders = [
+    {file = "pyobjc-framework-MetalPerformanceShaders-8.5.tar.gz", hash = "sha256:9219b19709bcc1d85c900ae1ea3f5f8fc0c03be62daf25565ff313839ad41b4e"},
+    {file = "pyobjc_framework_MetalPerformanceShaders-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:9944fa78fe37d31fce4e9adaee0fda5f538edf525debdf3d01df424e2795be70"},
+    {file = "pyobjc_framework_MetalPerformanceShaders-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:eb7c3835f775a1efc3719dcd6783512afebea0821da60020a3dc02b122bbea93"},
+    {file = "pyobjc_framework_MetalPerformanceShaders-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:1539bb50361939c1528114cdd0012cf14330aa1c249e94139b97d6fb492611b7"},
+]
+pyobjc-framework-metalperformanceshadersgraph = []
+pyobjc-framework-metrickit = []
+pyobjc-framework-mlcompute = [
+    {file = "pyobjc-framework-MLCompute-8.5.tar.gz", hash = "sha256:494800007edf445f5d64f51b6550584522d795d7aefa6ca6e0d76ff9039892cc"},
+    {file = "pyobjc_framework_MLCompute-8.5-py2.py3-none-any.whl", hash = "sha256:0b7d365f1a36913a1a1b02a5bae34bc4ace0d2adc950d3e0f0c0d07e21d9bb20"},
+]
+pyobjc-framework-modelio = []
+pyobjc-framework-multipeerconnectivity = [
+    {file = "pyobjc-framework-MultipeerConnectivity-8.5.tar.gz", hash = "sha256:82f677ddba1861802a236a26beee6710cc36fe19f1c37e3bfa5b794476aa4155"},
+    {file = "pyobjc_framework_MultipeerConnectivity-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:f83ca29aef25a7ea220a67b9d24ed3eac4dcb84021825c3369515dfe82438f50"},
+    {file = "pyobjc_framework_MultipeerConnectivity-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:82b9fe3cd1e279dbee30e751700c0c2e83f7c4837051e751484fff3440fd1627"},
+    {file = "pyobjc_framework_MultipeerConnectivity-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:30c9e6ec7e54bbd14e2bf0a5ec796b13c7fa5aa5f050b6902c1fd9ed9f6be56e"},
+]
+pyobjc-framework-naturallanguage = []
+pyobjc-framework-netfs = [
+    {file = "pyobjc-framework-NetFS-8.5.tar.gz", hash = "sha256:d36ef8f8f07130ddefb27b6e020922e8cc34cede7e1547dba7473a87a68ae32b"},
+    {file = "pyobjc_framework_NetFS-8.5-py2.py3-none-any.whl", hash = "sha256:9823def9da58b2f67f5c40193f01da621513a1add6328dde024417f4dc302281"},
+]
+pyobjc-framework-network = [
+    {file = "pyobjc-framework-Network-8.5.tar.gz", hash = "sha256:387b79527d287bb743fbd77bd0ab41d82d04e76b059f31e3b7095280e7aa632c"},
+    {file = "pyobjc_framework_Network-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:a4250521ed2deb79c85906d7e93c0f8369c0e525f02fe50f05af8c9b063b9328"},
+    {file = "pyobjc_framework_Network-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:40521db2c6f5336f9805909b23ce81a8bbef9013bc793352f827b7f5a55da451"},
+    {file = "pyobjc_framework_Network-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:23e13e146854ae4f9fa6a966eafcc1d8422e4a96a8bc5d6e2448a685038713b4"},
+]
+pyobjc-framework-networkextension = []
+pyobjc-framework-notificationcenter = [
+    {file = "pyobjc-framework-NotificationCenter-8.5.tar.gz", hash = "sha256:23fce23e4f8eab0849f2db9870a05433c1de0ef538664faf444cf8013c707cb3"},
+    {file = "pyobjc_framework_NotificationCenter-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:b5ddc158f4d3eace2de881fa502915fe880ccda40febe6ddd2e272a63c4525bf"},
+    {file = "pyobjc_framework_NotificationCenter-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:ce5a276737c6b5549ad3e1902f5cb248b0048f7fae4ed1a082dd0f9c3c230a3b"},
+    {file = "pyobjc_framework_NotificationCenter-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:2b89173583461d79e30582db4f91db1df82a9bb724ed9dc827a7484c4eb17f3a"},
+]
+pyobjc-framework-opendirectory = [
+    {file = "pyobjc-framework-OpenDirectory-8.5.tar.gz", hash = "sha256:706f09cc38307a0c860a929d9b6bf826e0bccf3a536286024b345787555141f7"},
+    {file = "pyobjc_framework_OpenDirectory-8.5-py2.py3-none-any.whl", hash = "sha256:5fcdab699dab2577f700ee4a4435520723db89faaa985ad4630ba67dfca21df8"},
+]
+pyobjc-framework-osakit = [
+    {file = "pyobjc-framework-OSAKit-8.5.tar.gz", hash = "sha256:74b745ec684b702967f78c4e7723c4a08ab271fe602efc5e35f441bb63c64365"},
+    {file = "pyobjc_framework_OSAKit-8.5-py2.py3-none-any.whl", hash = "sha256:161f665b37acac32938d2f698ea3df652e9a721b36b08a507cf39f80f5b03af8"},
+]
+pyobjc-framework-oslog = [
+    {file = "pyobjc-framework-OSLog-8.5.tar.gz", hash = "sha256:63551865ca3554f0f85cb3a7799b2471c0f89146b23cb12e939dad7d11c9e08a"},
+    {file = "pyobjc_framework_OSLog-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:c4d320476ed67f06594dc698ce3fc6ecde52dfabba1453e115ee4f5c27f5845a"},
+    {file = "pyobjc_framework_OSLog-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:cf334436f2d19e99ada3106e119914b7facc51e4ebb119d70c182da109021f7d"},
+    {file = "pyobjc_framework_OSLog-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:471fcdb5f317cc2c4432dd57c63820fcb1a18bffb9b7b78b42c4c49eb9adecaa"},
+]
+pyobjc-framework-passkit = []
+pyobjc-framework-pencilkit = [
+    {file = "pyobjc-framework-PencilKit-8.5.tar.gz", hash = "sha256:56a33b916649fd8cd35901978667745fda2fd28a918f79a723c7abfb395dabad"},
+    {file = "pyobjc_framework_PencilKit-8.5-py2.py3-none-any.whl", hash = "sha256:9a2eb68a4ce3d2e627516373ab4c282e94bb0dd9530c11947a538ca0fb9b04ed"},
+]
+pyobjc-framework-photos = [
+    {file = "pyobjc-framework-Photos-8.5.tar.gz", hash = "sha256:6ea5586d69472cec98737df6c66edbe38df7d4ad5c894b8081a9abbf1d6a1801"},
+    {file = "pyobjc_framework_Photos-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:7f7f2a5561e0b205c619fe955690c1810ff563a7072c7d7cf6c0055665c01585"},
+    {file = "pyobjc_framework_Photos-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:d2510faea3064dc6dab357b782c2a4099d72bc974b40ce4ede5b1b2b5b5a55bb"},
+    {file = "pyobjc_framework_Photos-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:1fddcb606fa18a95193fb087110bee86fda503a6684eefe84fce80f65c20aaa3"},
+]
+pyobjc-framework-photosui = [
+    {file = "pyobjc-framework-PhotosUI-8.5.tar.gz", hash = "sha256:4ad65e684f4d2d1738a3b981cecc741cc26914ac69c000bbe18ebf27b98a1e4a"},
+    {file = "pyobjc_framework_PhotosUI-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:6ef65f4253e92cdae8c05c655048ba662e36da0cd5995604e6fcad8fbfabdd35"},
+    {file = "pyobjc_framework_PhotosUI-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:f1189a05b60c8cd3a6e2b52ab775add3285e618abe07610d01fe686fe2c24106"},
+    {file = "pyobjc_framework_PhotosUI-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:27cd95da91e231eb1b693cf2edab7b03428b79bc3f54ca3db3d17a339fb848fa"},
+]
+pyobjc-framework-preferencepanes = []
+pyobjc-framework-pubsub = []
+pyobjc-framework-pushkit = []
+pyobjc-framework-quartz = []
+pyobjc-framework-quicklookthumbnailing = [
+    {file = "pyobjc-framework-QuickLookThumbnailing-8.5.tar.gz", hash = "sha256:46ff094cab5ccb63143e72ebbf411822e5b3196f54dfb85c29ff0d624931b052"},
+    {file = "pyobjc_framework_QuickLookThumbnailing-8.5-py2.py3-none-any.whl", hash = "sha256:ee7d935c3b7a14639d62de648501cf1660a8a3320af42e1612bba691b23acc3e"},
+]
+pyobjc-framework-replaykit = [
+    {file = "pyobjc-framework-ReplayKit-8.5.tar.gz", hash = "sha256:94cd956a3ee4a8d46a89f042645d34f30514ead22728efe9296cab2187b54a17"},
+    {file = "pyobjc_framework_ReplayKit-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:c044f1c821d7fe03577fe02bea207104fe231fdc8c6a89883878dc5cb0d219b8"},
+    {file = "pyobjc_framework_ReplayKit-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:01d8bbc1c73005f4b4b80dbd992b2d610ea86902a0cb6d9cfd8b8dc0998671a9"},
+    {file = "pyobjc_framework_ReplayKit-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:4ade9d890cf4cc685becb4a39036b009f93946dce6b9135bc0573d990f99f72d"},
+]
+pyobjc-framework-safariservices = [
+    {file = "pyobjc-framework-SafariServices-8.5.tar.gz", hash = "sha256:eb802ef43ad8c39aebcd2ff4a03db4d6d6ba3a2cbf65a377c0a5676003dd8da2"},
+    {file = "pyobjc_framework_SafariServices-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:968b2db6ce942a2dbad2121e5e46582af2633d35d5abc9fb5158b84efc813f82"},
+    {file = "pyobjc_framework_SafariServices-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:ee03dbb92f1da4ebf757284f094fca348a34928937eb02c31a65f9a7a61d1e06"},
+    {file = "pyobjc_framework_SafariServices-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:e72468c5d06bc842cf6aa2f87994c75fccbe628b22f5f6886dd8ab146beca9d5"},
+]
+pyobjc-framework-scenekit = []
+pyobjc-framework-screencapturekit = []
+pyobjc-framework-screensaver = []
+pyobjc-framework-screentime = []
+pyobjc-framework-scriptingbridge = []
+pyobjc-framework-searchkit = [
+    {file = "pyobjc-framework-SearchKit-8.5.tar.gz", hash = "sha256:908db0952169c1646378bb3d39d316adc8e9da03e344c0e05333598327b734cf"},
+    {file = "pyobjc_framework_SearchKit-8.5-py2.py3-none-any.whl", hash = "sha256:f5e3cc43d5874c6b8abd8f82d9dba2d0f04ec2ed4998f973184202f3a85c399e"},
+]
+pyobjc-framework-security = [
+    {file = "pyobjc-framework-Security-8.5.tar.gz", hash = "sha256:6e9c26f37f73c3d697f815a868828a1010661711cde2dd04d31dab6d4429cce5"},
+    {file = "pyobjc_framework_Security-8.5-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:ddf718abadc342acf768382eff132d116c0ee65f570ecfb391e73480f0697cfc"},
+    {file = "pyobjc_framework_Security-8.5-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:1dd0894a27035d8f20d61aa5710f25519c11eacd07c9a296ac1c00d241e14979"},
+    {file = "pyobjc_framework_Security-8.5-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:7248772eff0e9bcf36b29660a7d4b9f37f380ca8ee22b9feb4f098e328265b62"},
+    {file = "pyobjc_framework_Security-8.5-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:f94bb62309f00a42f8f0796a5e0ccadc9d41bb027936379ceed4e21606026dea"},
+    {file = "pyobjc_framework_Security-8.5-cp38-cp38-macosx_11_0_universal2.whl", hash = "sha256:add55d1a3c230304ac6061e2f3708cb9ad8de724acb17bca2511da4037916968"},
+    {file = "pyobjc_framework_Security-8.5-cp39-cp39-macosx_10_9_universal2.whl", hash = "sha256:28a373e33e8d24ff10eb3079484682d8f069fce981fa62d918b2a258ec04d2e5"},
+]
+pyobjc-framework-securityfoundation = []
+pyobjc-framework-securityinterface = []
+pyobjc-framework-servernotification = []
+pyobjc-framework-servicemanagement = []
+pyobjc-framework-shazamkit = []
+pyobjc-framework-social = [
+    {file = "pyobjc-framework-Social-8.5.tar.gz", hash = "sha256:32735709280ddbd122d3a8d14ad278a615e39539b4b79d315c58358801cbf749"},
+    {file = "pyobjc_framework_Social-8.5-py2.py3-none-any.whl", hash = "sha256:2394f0f772bd6b22b176ce5ecf454a317a25e90d7e824a648fa110ae2fe3142d"},
+]
+pyobjc-framework-soundanalysis = []
+pyobjc-framework-speech = []
+pyobjc-framework-spritekit = []
+pyobjc-framework-storekit = []
+pyobjc-framework-syncservices = []
+pyobjc-framework-systemconfiguration = [
+    {file = "pyobjc-framework-SystemConfiguration-8.5.tar.gz", hash = "sha256:fb34bb38a9ae1597c4365b15ed8ffdd9243a20661b5619f7667691270206a1f4"},
+    {file = "pyobjc_framework_SystemConfiguration-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:8e5b5141953313896655010f9d6d93f43452cf2d00a64acde3fd6242bc65e5d1"},
+    {file = "pyobjc_framework_SystemConfiguration-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:42a688a84836b3eec7bc63524315a9f733afbe20cb5eb9e04e2b49dcbb8c37ae"},
+    {file = "pyobjc_framework_SystemConfiguration-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:356090d6c985efd700479c5f7d2be0038702820fd6693e26161808bcc08f25df"},
+]
+pyobjc-framework-systemextensions = []
+pyobjc-framework-uniformtypeidentifiers = []
+pyobjc-framework-usernotifications = []
+pyobjc-framework-usernotificationsui = []
+pyobjc-framework-videosubscriberaccount = []
+pyobjc-framework-videotoolbox = []
+pyobjc-framework-virtualization = [
+    {file = "pyobjc-framework-Virtualization-8.5.tar.gz", hash = "sha256:3059716d543abb10031b1e98e53302c9353d8519f5b7fa9732f8337623cbf5a7"},
+    {file = "pyobjc_framework_Virtualization-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:7e3cb00e87f08334bffb7384471622bbd62ea1e01948b0c13b9166191337c9a5"},
+    {file = "pyobjc_framework_Virtualization-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:3c0111b291d7e06fde76d949cd2313070b8b2438089cfa4b51d9f4ac84eecd0f"},
+    {file = "pyobjc_framework_Virtualization-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:04c766fb49f63cfd49dfa51f14da5a5965f7d7a89f9e41e48d299a441c76ad91"},
+]
+pyobjc-framework-vision = [
+    {file = "pyobjc-framework-Vision-8.5.tar.gz", hash = "sha256:0c05ffd6195a7ed0329f55feca2956fbeb60b4369b384f246c8673539abbebdc"},
+    {file = "pyobjc_framework_Vision-8.5-cp36-abi3-macosx_10_9_universal2.whl", hash = "sha256:c9afe2ddc8e7998cfc4b67c3abed420862de4bc2160da589055f02417fc6cb3a"},
+    {file = "pyobjc_framework_Vision-8.5-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:b32331ad174663ccde045dcaecffeae15607247cab0de63f337f47cdd06107fa"},
+    {file = "pyobjc_framework_Vision-8.5-cp36-abi3-macosx_11_0_universal2.whl", hash = "sha256:b99e929cf72dd6fc228bb615b3e417f9b42042a0b20b2b5fad144259fab6ad09"},
+]
+pyobjc-framework-webkit = []
+pyparsing = []
+pypdf2 = []
+pypiwin32 = []
+pytest = [
+    {file = "pytest-5.4.3-py3-none-any.whl", hash = "sha256:5c0db86b698e8f170ba4582a492248919255fcd4c79b1ee64ace34301fb589a1"},
+    {file = "pytest-5.4.3.tar.gz", hash = "sha256:7979331bfcba207414f5e1263b5a0f8f521d0f457318836a7355531ed1a4c7d8"},
+]
+pyttsx3 = []
+pywin32 = []
+typing-extensions = []
+wcwidth = [
+    {file = "wcwidth-0.2.5-py2.py3-none-any.whl", hash = "sha256:beb4802a9cebb9144e99086eff703a642a13d6a0052920003a230f3294bbe784"},
+    {file = "wcwidth-0.2.5.tar.gz", hash = "sha256:c4d647b99872929fdb7bdcaa4fbe7f01413ed3d98077df798530e5b04f116c83"},
+]
